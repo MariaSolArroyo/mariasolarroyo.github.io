@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CV online</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <script
+      src="https://kit.fontawesome.com/ac0f779175.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://kit.fontawesome.com/ac0f779175.css"
+      crossorigin="anonymous"
+    />
+    <script src="http://code.jquery.com/jqery-latest.js"></script>
+  </head>
+
+  <body>
+    <!--MenuNav-->
+    <nav class="nav" id="nav">
+      <ul class="menu">
+        <li><a href="#personal">Personal</a></li>
+        <li><a href="#experiencia">Experiencia</a></li>
+        <li><a href="#habilidades">Habilidades</a></li>
+      </ul>
+    </nav>
+
+
+    <!--INFORMACION PERSONAL-->
+    <section class="personal" id="personal">
+      <div class="foto">
+        <img
+          onmouseover="aumentarimagen(this)"
+          onmouseout="imgnormal(this)"
+          src="img/zyro-image.png"
+          alt="fotopersonal"
+        />
+      </div>
+      <div class="textoprincipal">
+        <h1 id="titpersonal">Christy Turner</h1>
+        <hr />
+        <h6 id="subtitpersonal">Diseñadora Gráfica</h6>
+        <p class="descripcionbio">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non
+          accusantium dignissimos odio illum, laudantium voluptas quia
+          repudiandae a! Praesentium sunt vitae ex ad minima. Mollitia veritatis
+          error voluptatum cupiditate! Modi.
+        </p>
+      </div>
+    </section>
+
+    <!--HABILIDADES-->
+    <section class="habilidades" id="habilidades">
+      <h1 class="titulohab">
+        Habilidades <i class="fa-solid fa-graduation-cap"></i>
+      </h1>
+
+      <div class="listahabilidades">
+        <ul>
+          <li onmouseover="" onmouseout="" id="figma">
+            <i class="fa-brands fa-figma"></i>
+          </li>
+          <li id="desarrolloweb"><i class="fa-solid fa-desktop"></i></li>
+          <li id="diseniografico"><i class="fa-solid fa-bezier-curve"></i></li>
+          <li id="linux"><i class="fa-brands fa-linux"></i></li>
+          <li id="wordpress"><i class="fa-brands fa-wordpress"></i></li>
+          <li id="word"><i class="fa-solid fa-file-word"></i></li>
+        </ul>
+      </div>
+    </section>
+
+    <!--EXPERIENCIA-->
+    <section class="experiencia" id="experiencia">
+      <h1 class="tituloexp">
+        Experiencia <i class="fa-solid fa-briefcase"></i>
+      </h1>
+      <div class="experienciaslista">
+        <div class="exp">
+          <h2 class="titexp">Diseñadora Gráfica Junior</h2>
+          <h6 class="titempresa">Design Estilo</h6>
+          <p class="anioexp">MARZO 2019 - OCTUBRE 2020</p>
+          <p class="descripexp">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam
+            ad qui dolor fuga officia fugiat nam eos, consequatur omnis non ipsa
+            aliquam ullam nulla itaque voluptatem officiis excepturi earum.
+            Aperiam.
+          </p>
+        </div>
+
+        <div class="exp">
+          <h2 class="titexp">Project Manager</h2>
+          <h6 class="titempresa">Servicios Alpha</h6>
+          <p class="anioexp">DICIEMBRE 2020 - MARZO 2021</p>
+          <p class="descripexp">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Reprehenderit, quas blanditiis ullam praesentium quae repellendus
+            magnam consequatur dolor, quam accusamus officiis minus enim odio
+            numquam veritatis quod laudantium, exercitationem laborum.
+          </p>
+        </div>
+
+        <div class="exp">
+          <h2 class="titexp">Diseñadora Gráfica Junior</h2>
+          <h6 class="titempresa">Design Estilo</h6>
+          <p class="anioexp">MARZO 2019 - OCTUBRE 2020</p>
+          <p class="descripexp">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam
+            ad qui dolor fuga officia fugiat nam eos, consequatur omnis non ipsa
+            aliquam ullam nulla itaque voluptatem officiis excepturi earum.
+            Aperiam.
+          </p>
+        </div>
+
+        <div class="exp">
+          <h2 class="titexp">Desarrolladora Web</h2>
+          <h6 class="titempresa">Web Burbuja</h6>
+          <p class="anioexp">DICIEMBRE 2021 - AGOSTO 2022</p>
+          <p class="descripexp">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Reprehenderit, quas blanditiis ullam praesentium quae repellendus
+            magnam consequatur dolor, quam accusamus officiis minus enim odio
+            numquam veritatis quod laudantium, exercitationem laborum.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <footer id="footer">
+      <ul class="listafooter">
+        <li>
+          <a href=""><i class="fa-brands fa-instagram"></i></a>
+        </li>
+        <li>
+          <a href=""><i class="fa-brands fa-facebook"></i></a>
+        </li>
+        <li>
+          <a href=""><i class="fa-brands fa-whatsapp"></i></a>
+        </li>
+        <li>
+          <a href=""><i class="fa-brands fa-linkedin"></i></a>
+        </li>
+      </ul>
+      María Sol Arroyo <i class="fa-regular fa-copyright"></i> 2023
+    </footer>
+
+    <div class="irarriba-container">
+      <button class="botonirarriba">
+          <a href="#nav">        
+            <i class="fa-solid fa-angles-up"></i>
+          </a>
+
+        
+      </button>
+    </div>
+
+    
+    <script src="js/animaciones.js"></script>
+  </body>
+</html>

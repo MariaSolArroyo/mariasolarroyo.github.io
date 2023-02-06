@@ -1,0 +1,236 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Lato';
+    width: 100%;
+}
+
+/*Nav*/
+.menu{
+    display: flex;
+    justify-content: flex-end;
+    align-items:end;
+    padding-right: 20px;
+    padding-top: 20px;
+}
+
+.menu li{
+    padding-right: 15px;
+    list-style: none;
+}
+
+.menu a{
+    color: #E7BDAF;
+    font-size: 1rem;
+}
+
+.menu a:hover{
+    color: #224A54;
+    font-size: 1.3rem;
+}
+
+/*Sec-Personal*/
+.personal, section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.foto img{
+    width: 400px;
+}
+
+#titpersonal{
+    color: #224A54;
+    font-size: 5rem;
+    margin: 0;
+}
+
+#subtitpersonal{
+    font-size: 2rem;
+    color: #E7BDAF;
+    margin: 0;
+}
+
+
+.textoprincipal{
+    text-align: center;
+    width: 50%;
+    }
+
+/*Sec-Experiencia*/
+.experiencia{
+    background-color: #f6f2f1;
+    padding: 10px;
+    display: flex;
+    justify-content: start;
+    align-items:center;
+    flex-direction: column;
+    min-height: 80vh;
+}
+
+.experienciaslista{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tituloexp{
+    color: #224A54;
+    font-size: 3rem;
+    margin-top:25px;
+    margin-bottom: 60px;
+    
+}
+
+.exp{
+    width: 50%;
+    text-align:left;
+    margin: 20px;
+}
+
+.titexp{
+    margin: 0;
+    font-size: 1.2rem;
+    color: #224A54;
+}
+.titempresa{
+    margin: 0;
+    font-size: 1rem;
+    color: #E7BDAF;
+}
+.anioexp{
+    margin: 0;
+    font-size: 0.7rem;
+    color: #416f7a;
+}
+.descripexp{
+    color: #a2a2a2;
+}
+
+
+
+/*Sec-Habilidades*/
+.habilidades{
+    background-color: #E7BDAF;
+    padding: 10px;
+    margin-top: 5px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    min-height: 80vh;
+}
+
+a{ 
+    text-decoration: none;
+}
+
+.listahabilidades li{
+    list-style: none;
+    font-size: 3rem;
+    padding: 17px;
+    color: #f6f2f1;
+}
+
+li:hover{
+    font-size: 4.5rem;
+    color: #416f7a;
+}
+.titulohab{
+    color: #224A54;
+    font-size: 3rem;
+    margin-bottom: 120px;
+    margin-top: 40px;
+}
+
+.listahabilidades ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.listahabilidades{
+    text-align: center;
+}
+
+/*Footer*/
+
+#footer{
+    background-color: #224A54;
+    color: aliceblue;
+    text-align: center;
+    padding-top: 30px;
+    margin-top: 5px;
+    margin-bottom: 0;
+    padding-bottom: 15px;
+}
+
+.listafooter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.listafooter li{
+    list-style: none;
+    padding: 20px;
+    font-size: 2rem;
+}
+
+.listafooter a:hover{
+    color: #E7BDAF;
+    font-size: 3rem;
+}
+
+.listafooter a{
+    color: #f6f2f1;
+}
+
+hr{
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-bottom: 20px;
+}
+
+/*BotonIrArriba*/
+
+.irarriba-container{
+    position:fixed;
+    bottom: 4rem;
+    right: 4rem;
+    width: 6.6rem;
+    height: 6.6rem;
+}
+
+.botonirarriba{
+    width: 3rem;
+    height: 3rem;
+    background: #E7BDAF ;
+    border: 50%;
+    cursor: pointer;
+    top: 50%;
+    left: 50%;
+    transform: translate(-40%,-40%);
+    border:1px solid #224A54;
+}
+
+.botonirarriba i{
+    position:absolute;
+    font-size: 1.7rem;
+    top: 48%;
+    left: 50%;
+    color: #224A54;
+    transform: translate(-50%,-40%);
+
+
+}
+
+
